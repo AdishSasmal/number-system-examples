@@ -1,0 +1,21 @@
+public class ques {
+
+	public static void main(String[] args) {
+		
+	double pay = 171.07;
+	double i = (9d/1200d);
+	double P =1000d;
+	for (int i1=0; i1<6; i1++)
+	{
+		double p=i*P*1;
+		System.out.println(p);
+		double payment=pay-P;
+		System.out.println(payment);
+		P=P-payment;
+		System.out.println(P);
+	}
+
+	
+	}
+
+}
